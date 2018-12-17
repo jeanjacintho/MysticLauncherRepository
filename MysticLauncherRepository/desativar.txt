@@ -1,0 +1,13 @@
+$${
+if(@fecharchat);
+	log("&f&lAbrindo Chat");
+	chatscale(100);
+	unset(@fecharchat);
+	stop();
+else;
+	log("&f&lFechando Chat");
+	wait(1);
+	chatscale(0);
+	set(@fecharchat);
+endif;
+}$$

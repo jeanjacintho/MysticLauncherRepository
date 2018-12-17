@@ -1,0 +1,12 @@
+$${
+if(@lanterna);
+	log("&f&lLanterna &c&lOFF");
+	gamma(100);
+	unset(@lanterna);
+	stop();
+else;
+	gamma(1500);
+	log("&f&lLanterna &a&lON");
+	set(@lanterna);
+endif;
+}$$

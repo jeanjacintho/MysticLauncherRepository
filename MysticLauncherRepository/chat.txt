@@ -1,0 +1,5 @@
+$${
+log("&f&lLimpando o Chat");
+wait(1);
+CLEARCHAT();
+}$$
